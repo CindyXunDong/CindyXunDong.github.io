@@ -18,10 +18,20 @@ I worked on reading concepts of image classification as well as sample codes tha
 I learned to organize images into different folders. In addition, I learned three different ways to import my data into my program. Firstly, I can type in the path of my image files just like what I will have to do for creating a GitHub repo. Moreover, I can upload my images onto my Google drive and write codes to get my programs access to my drive. Lastly, I can extract a zip file of all of my images from my computer. I decide to use the third method so far, but will try the other ones if I get stuck.
 Since I don't need the recycle garbage category to be so detailed, I want to group the cardboard, glass, metal and paper folders into one big recycle folder. However, this folder will contain significantly more images than other folders and it may be hard for the computer to classify. 
 I will read my images into my computer and organize my data into different folders using codes for tomorrow. If I have extra time, I will start training my model.
+
 <img src="/images/Cardboard.png" width="600"/>
 <img src="/images/Glass.png" width="600"/>
 <img src="/images/Trash.png" width="600"/>
+
 **January 8th**
+As planned yesterday, I worked on uploading my images to my Jupiter notebook, importing packages, extracting zip files, and almost finished organizing my data into different folders. 
+During my working process, I've encountered some issues. When I was importing packages, it was shown that fastai couldn't be installed because the system couldn't find the module. At first, I followed a Github post (https://forums.fast.ai/t/modulenotfounderror-no-module-named-fastai/10663/16) by adding a path for the fastai package. However, since I was in a different folder than the path that I installed, my computer still couldn't find the package. After consulting with Lauren, I installed pytorch and fastai to my computer from my terminal, and thus made my importation successful. Another issue came up when I was trying to read my data files to my codes. It turned out that the name I entered to my code didn't match with the name of the file, and I didn't upload the file to my Jupiter notebook. From the two issues, I learned to install packages using my terminal, and to check my files more carefully before I work on my codes.
+When I was organizing my images, there was an issue that I couldn't solve. Because one folder of my data came from another dataset, although the files are of the same type, the names of the images within the folder didn't match with the other ones. Therefore, I couldn't refer to them as the other ones. In order to solve the issue, I intended to use the os.rename() method (https://www.geeksforgeeks.org/rename-multiple-files-using-python/), but the renaming process wasn't successful, so I will need more help on that.
+For tomorrow, I will solve the issue of renaming and thus be able to organize my data. Then I will be able to train my algorithm and hopefully get a prediction. 
+
+<img src="/images/import.png" width="600"/>
+<img src="/images/zipfile.png" width="600"/>
+<img src="/images/organize.png" width="600"/>
 
 **January 9th**
 
