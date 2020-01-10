@@ -34,6 +34,14 @@ For tomorrow, I will solve the issue of renaming and thus be able to organize my
 <img src="/images/organize.png" width="600"/>
 
 **January 9th**
+I worked on solving the problems I encountered yesterday. Since the filenames of the food folder which is newly downloaded didn't match with the other folders, I used the os.rename() method (https://www.tutorialspoint.com/rename-multiple-files-using-python) to rename all of the files in the food folder so that they match with the other folders. After fixing the problem, I was able to organize my data into different classes corresponding to their garbage types. I also began some of the training process. I let the computer learn the model that I will use for image classification, which is the resent34 model. //
+At first, I was struggled with renaming the files, because the codes couldn't locate the exact directory of the files. Even though I copied and pasted the directory by "get info" tab on the file, the program still couldn't recognize it. I eventually solved the problem by incorporating both the information from the last link with the directory that I copied from the file (https://www.josharcher.uk/code/find-path-to-folder-on-mac/) and it worked.//
+During the process of finding the learning rate, I faced a potential mismatch in batch sizes (I wasn't sure about the problem). I guess that it also results from the addition of the new folder since the dimensions may be different. //
+I will work on fixing the mismatch tomorrow. Once I have it fixed, I can complete the training process and hopefully get training data.
+
+<img src="/images/rename.png" width="600"/>
+<img src="/images/classes.png" width="600"/>
+<img src="/images/batch.png" width="600"/>
 
 **January 10th**
 
