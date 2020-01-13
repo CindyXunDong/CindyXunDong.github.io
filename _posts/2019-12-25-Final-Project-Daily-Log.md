@@ -54,6 +54,12 @@ Over the weekend, I will start to fit the model on my testing set.
 <img src="/images/Training3.png" width="600"/>
 
 **January 13th**
+After training my data for 10 rounds, I used my testing set to test my model. I printed out all of the predictions, and compared the first five of them with the actual categories of the trash, and they all turned out to be the same. I also printed out a confusion matrix which gives me the details of errors my model made on the testing data for calculating test accuracy. Finally, my testing accuracy turned out to be about 91%.
+When I was first testing my model from my testing set, two of the images couldn't be processed into the system because they had a different file type than the other images. In order to solve the problem, I first changed the file type manually, but the images were still invisible. Therefore, I took two other images from the original dataset I downloaded that I didn't use instead and the results were shown. 
+I will start to do some data analysis from tomorrow. 
+
+<img src="/images/Result.png" width="600"/>
+<img src="/images/Testing accuracy.png" width="600"/>
 
 **January 15th**
 
