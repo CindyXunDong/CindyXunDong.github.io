@@ -44,6 +44,14 @@ I will work on fixing the mismatch tomorrow. Once I have it fixed, I can complet
 <img src="/images/batch.png" width="600"/>
 
 **January 10th**
+I solved the problem from yesterday and printed some of my data. After fitting the model, I graphed different learning rates to find the best learning rate. I used 1e-03 as my learning rate because it was approximately the middle point of the downward slope. Applying the learning rate to the training set, I trained 10 times and successfully reduced my error rate from about 0.182 to 0.075. However, the training time was very long, and the longest training session took more than an hour. Therefore, I doubted a little that the learning rate was too slow. I also figured out the most confused categories of my data. It looked like the plastic category was most likely to be mistakenly classified and the metal category was most likely to be mistakenly classified as. 
+The problem I encountered yesterday was on the size mismatch of images instead of batches. Therefore, I restricted image sizes in my codes instead of batch sizes so that all the images are of the same size. Although I learned to restrict sizes of images, I realized that the process would be much easier if I could have restrict image sizes during preprocessing because then I could address all of the potential mismatches in all three sets. 
+Over the weekend, I will start to fit the model on my testing set. 
+
+<img src="/images/Learning rate.png" width="600"/>
+<img src="/images/Training1.png" width="600"/>
+<img src="/images/Training2.png" width="600"/>
+<img src="/images/Training3.png" width="600"/>
 
 **January 13th**
 
