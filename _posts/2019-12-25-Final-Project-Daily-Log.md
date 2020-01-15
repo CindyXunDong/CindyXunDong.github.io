@@ -62,6 +62,16 @@ I will start to do some data analysis from tomorrow.
 <img src="/images/Testing accuracy.png" width="600"/>
 
 **January 15th**
+I start my data analysis process after I got my testing accuracy. For printed quantitative data such as train_loss, valid_loss, error_rate and time, I plotted them on a histogram, line chart and scatter chart against their corresponding number of epoch. According to the graphs, it's clear that train_loss, valid_loss and error_rate generally followed a decrease trend with a seemingly exponential decay. The training time doesn't follow any obvious trend, but in general they are ranged from 40-50 minutes, which means that it takes a long time for the computer to learn the data, possibility due to the fact that I set a low learning rate. Since my sample code also includes codes to print the most confused categories, I acquired data of the categories misclassified and being misclassified to over two times. And it's evident that plastic is the category that gets misclassified mostly easily, and metal and paper are the categories that are easiest to be misclassified as. A point to note is that food images never got misclassified or be misclassified as more than once. To get a sense of how well my algorithms did, I created an actual vs predicted chart for the training and testing sets. It looks like there are only small differences between the actual and predicted amount of items in each category. 
+I will do more data analysis tomorrow.
+
+<img src="/images/Train_loss.png" width="600"/>
+<img src="/images/Valid_loss.png" width="600"/>
+<img src="/images/Error_rate.png" width="600"/>
+<img src="/images/Time.png" width="600"/>
+<img src="/images/Misclassification.png" width="600"/>
+<img src="/images/Actual vs Predicted (Training).png" width="600"/>
+<img src="/images/Actual vs Predicted (Testing).png" width="600"/>
 
 **January 16th**
 
