@@ -74,5 +74,11 @@ I will do more data analysis tomorrow.
 <img src="/images/Actual vs Predicted (Testing).png" width="600"/>
 
 **January 16th**
+I continued to work on my data analysis. With my previous knowledge in Logistic Regression, I calculated the statistical values including accuracy, recall/TPR, precision, FPR, specificity and a lot of other values for training and testing data separately. The values were calculated from the confusion matrix I created. After I had a chart with all the statistical values, I plotted the values as data points on a dot plot. It looks like although they are all quite close to 1 (FPR close to 0), the values didn't vary with a certain trend. The difference between training and testing sets was obvious.
+
+<img src="/images/Training.png" width="600"/>
+<img src="/images/Training Chart.png" width="600"/>
+<img src="/images/Testing.png" width="600"/>
+<img src="/images/Testing Chart.png" width="600"/>
 
 **January 17th**
